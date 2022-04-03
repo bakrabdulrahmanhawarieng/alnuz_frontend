@@ -633,11 +633,14 @@ header
   -o-transition     : all 0.3s ease 0s;
   transition        : all 0.3s ease 0s;
   /* height            : 40px; */
-  line-height       : 5vw;
+  line-height       : 3vw;
   border            : transparent;
   letter-spacing    : 1px;
   font-size: 13px;
   white-space: nowrap;
+
+  line-height: 42px;
+
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -926,6 +929,10 @@ header
 
   .header-area.header-sticky .nav {
     margin-top: 100px !important;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
   }
 
   .header-area .main-nav .nav li {
@@ -937,6 +944,7 @@ header
   }
 
   .header-area .main-nav .nav li a {
+    
     height     : 50px !important;
     line-height: 50px !important;
     padding    : 0px !important;
@@ -1267,7 +1275,7 @@ section.upcoming-meetings {
 
 section.upcoming-meetings .section-heading {
   text-align   : center;
-  width        : 23%;
+  /* width        : 23%; */
   margin       : auto;
   margin-bottom: 50px;
 }
@@ -1463,6 +1471,9 @@ section.apply-now .item p {
     padding  : 1rem;
     font-size: 1.2rem;
   }
+  .header-area .main-nav .nav li a {
+    color: #910b0b!important;
+  }
 }
 
 .accordion-head .icon {
@@ -1654,6 +1665,7 @@ section.our-facts {
   background-repeat    : no-repeat;
   background-size      : cover;
   /* padding           : 140px 0px 125px 0px; */
+  width: 100%;
 }
 
 .fd {}
@@ -1972,9 +1984,10 @@ section.meetings-page .pagination ul li a {
   font-weight     : 600;
   font-size       : 15px;
   transition      : all .3s;
-  background-color: #adadad91;
+  background-color: #adadad4d ;
   padding-top: 7px;
   height: 40px;
+  
 }
 
 section.meetings-page .main-button-red {
@@ -2148,7 +2161,13 @@ section.meetings-page .pagination ul li a:hover {
 
 @media (max-width: 992px) {
   .templatemo-item-col {
-    width: 45%;
+    
+    width: 88%;
+    margin: auto;
+
+  }
+  .iok{
+    margin-top: 0!important;
   }
 }
 
@@ -2243,10 +2262,50 @@ responsive
   }
 
   .main-banner .caption h2 {
-    margin-top   : 10px;
+    margin: auto;
+    margin-top: 10px;
     margin-bottom: 10px;
-    font-size    : 22px;
+    font-size: 26px;
+    line-height: 31px;
   }
+  .main-banner .caption p {
+    color: #fff;
+    font-size: 14px;
+    max-width: 570px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.main-button-red a {
+  font-size: 13px;
+  color: #fff;
+  background-color: #ba0f0f;
+  padding: 2px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+  /* padding-top: 17px; */
+  height: 48px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #861913 0%, #BA0F0F 100%);
+  /* width: 132px; */
+  border-radius: 100px;
+  /* padding-top: 14px; */
+  /* padding-right: 30px; */
+  /* padding-bottom: 16px; */
+  /* padding-left: 31px; */
+  cursor: pointer;
+  line-height: 41px;
+}
+.blogs {
+  margin-top: 7vw;
+}
 
   .main-banner .caption .main-button-red {
     margin-top: 15px;
@@ -2257,7 +2316,8 @@ responsive
   }
 
   section.upcoming-meetings {
-    padding-top: 400px;
+    padding-top: 48vw;
+    padding-top: 503px;
   }
 
   section.upcoming-meetings .categories {
@@ -2319,7 +2379,8 @@ responsive
 
 .logo img {
   width: 83%;
-  width: 15vw;
+  width: 16vw;
+  height: 100%;
 }
 
 .sections {
@@ -2334,9 +2395,10 @@ responsive
   font-style : normal;
   font-weight: normal;
   font-size  : 18px;
-  line-height: 17px;
+  line-height: 2vw;
   color      : #ffffff;
   white-space: nowrap;
+
 }
 
 .sections a {
@@ -2456,8 +2518,9 @@ hr.zizi {
 }
 
 .mpo {
-  margin-bottom: 10px;
+  margin-bottom: 1vw;
 }
+
 
 .po {
   border-top   : 7px solid  #b01010;
@@ -2597,6 +2660,7 @@ hr.zizi {
   flex-direction: row;
   flex-wrap     : wrap;
   gap           : 29px;
+  justify-content: center;
 }
 
 .client img {
@@ -3021,3 +3085,79 @@ section.heading-page1 {
   padding-top: 64px;
   /* background: #f2f5fb; */
 }
+.abcki{
+  background-image: url(/assets/images/qq\ 209.png);
+  background-size: cover;
+  height: 70vw;
+  width: 100%;
+  
+}
+@media screen and (max-width:800px) {
+
+   .logo img {
+    width: 42%!important;
+    margin: auto 0;
+  }
+  
+}
+.logof{
+  display: flex;
+}
+.logof img{
+  width: 16vw;
+  height: 100%;
+}
+@media screen and (max-width:768px) {
+  .abcki{
+  height: 100vh;
+  
+  }
+   .logo img {
+    width: 57%!important;
+    margin: auto 0;
+  }
+  
+}
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #ba0f0f;
+  font-size: .9em;
+  line-height: 2;
+  /* border: 1px solid #ddd; */
+  border-radius: .25em;
+}
+.containeru{
+  max-width: 95%;
+  max-width: 87%;
+}
+/* .rit{
+  width: 2vw;
+  height: 2vw;
+} */

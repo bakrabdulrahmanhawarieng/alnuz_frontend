@@ -8446,6 +8446,8 @@
   width: 100%;
   margin-bottom: 25px;
   padding: 0 20px;
+
+
 }
 @media (min-width: 768px) {
   #contact .dbox {
@@ -8455,6 +8457,8 @@
 }
 #contact .dbox p {
   margin-bottom: 0;
+  line-height: 20px;
+
 }
 #contact .dbox p span {
   font-weight: 500;

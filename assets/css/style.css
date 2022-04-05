@@ -1401,7 +1401,7 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item .down-content p {
   margin-left: 5px;
   color      : #1f272b;
-  font-size  : 2vw;
+  font-size  : 16px;
   
 }
 
@@ -1472,7 +1472,7 @@ section.apply-now .item p {
     font-size: 1.2rem;
   }
   .header-area .main-nav .nav li a {
-    color: #910b0b!important;
+    /* color: #910b0b!important; */
   }
 }
 

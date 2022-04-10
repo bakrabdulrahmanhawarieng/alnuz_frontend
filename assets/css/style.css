@@ -1340,7 +1340,20 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item .thumb {
   position: relative;
+
 }
+.back-blog{
+  background-image: url(/assets/images/qq\ 22.png);
+  height: 200px;
+  background-size:cover;
+  border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.main-heigt{
+  height: 400px;
+}
+
+
 
 .meeting-item .thumb img {
   border-top-right-radius: 20px;
@@ -1402,6 +1415,9 @@ section.upcoming-meetings .categories .main-button-red a {
   margin-left: 5px;
   color      : #1f272b;
   font-size  : 16px;
+  max-height: 109px;
+  overflow: hidden;
+  max-width: 100%;
   
 }
 
@@ -2093,7 +2109,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content h4 {
-  font-size    : 3vw;
+  font-size    : 2.3vw;
   color        : #1f272b;
   font-weight  : 600;
   display      : inline-block;
@@ -2736,14 +2752,22 @@ a:hover {
 
 .gfgf {
   line-height: 16px;
-  font-size  : 14px;
-  margin     : 0 0px 0px 5px;
+  font-size: 14px;
+  margin: 0 0px 0px 5px;
+  height: 106px;
+  overflow: hidden;
+  line-height: 19px;
 }
 
 .redbold {
-  color      : #ba0f0f;
+  color: #ba0f0f;
   font-weight: 700;
   white-space: nowrap;
+  overflow-y: hidden;
+  margin: 0;
+  line-height: 27px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 
@@ -3061,6 +3085,10 @@ input:focus-visible {
   font-weight: 600;
   line-height: 24px;
   margin: 0;
+  height: 25px;
+  overflow: hidden;
+  max-width: 94%;
+
 }
 .wido{
   /* margin-top: 77px!important; */
@@ -3202,3 +3230,4 @@ section.heading-page1 {
     width: 100%;
   }
 }
+

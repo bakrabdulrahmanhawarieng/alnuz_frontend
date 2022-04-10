@@ -896,4 +896,22 @@ input[type=radio] + label {
 
 .jio {
   background-image: url(/assets/images/qq\ 207.png) !important;
+}
+
+option {
+  font-size: 16px;
+  color: black;
+}
+
+select:focus {
+  outline: 1px solid white;
+  outline-offset: -2px;
+}
+
+select ~ input[type=button] {
+  -moz-appearance: menulist-button;
+  margin-left: -19px;
+  width: 18px;
+  height: 18px;
+  z-index: 10;
 }/*# sourceMappingURL=register.css.map */

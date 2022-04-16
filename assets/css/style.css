@@ -910,10 +910,16 @@ header
   .header-area .main-nav {
     overflow: hidden;
   }
-
+  .header-area.header-sticky .nav {
+    margin-top: 100px !important;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
   .header-area .main-nav .nav {
     float             : none;
-    width             : 100%;
+    width             :95%;
     display           : none;
     -webkit-transition: all 0s ease 0s;
     -moz-transition   : all 0s ease 0s;
@@ -927,13 +933,7 @@ header
     border-top: 1px solid #eee;
   }
 
-  .header-area.header-sticky .nav {
-    margin-top: 100px !important;
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
+
 
   .header-area .main-nav .nav li {
     width        : 100%;
@@ -1418,6 +1418,7 @@ section.upcoming-meetings .categories .main-button-red a {
   max-height: 109px;
   overflow: hidden;
   max-width: 100%;
+  line-height: 23px;
   
 }
 
@@ -3046,7 +3047,7 @@ section {
   padding: 1.6rem 1.4rem !important;
   border-radius: 4px !important;
   position: absolute;
-  inset: 0px auto auto -145px!important;
+  /* inset: 0px auto auto -145px!important; */
   transform: translate(0px, 52px)!important;
 }
 .modal-contentr {

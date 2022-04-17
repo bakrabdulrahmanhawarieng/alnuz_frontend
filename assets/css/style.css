@@ -1,7 +1,7 @@
 
 @import url('http ://fonts.cdnfonts.com/css/gotham');
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-
+@import url('http://fonts.cdnfonts.com/css/gotham');
 /* 
 
 html,
@@ -219,6 +219,8 @@ p{
   border-radius: 4px;
   height       : 36px;
   width        : 100%;
+  font-size: 3vw;
+  padding: 6px 10px;
 }
 
 .selectoo {}
@@ -555,7 +557,9 @@ header
 .background-header .nav li a.active {
   color: #fb5849 !important;
 }
-
+.background-header .logo, .background-header .main-nav .nav  .whi {
+  color: #ffffff !important;
+}
 .header-area {
   background-color  : rgba(250, 250, 250, 0.15);
   position          : absolute;
@@ -1003,6 +1007,7 @@ header
     display  : flex !important;
     flex-wrap: nowrap;
     width    : 60%;
+    align-items: center;
   }
 }
 
@@ -1666,6 +1671,7 @@ section.our-courses {
   height          : 50px;
   border-radius   : 50%;
   line-height     : 50px;
+  
 }
 
 
@@ -1966,7 +1972,7 @@ section.meetings-page .filters li {
   cursor          : pointer;
   margin          : 0px 3px;
   background-color: #adadad2b;
-  padding-top: 15px;
+  padding-top: 10px;
   height: 40px;
 }
 
@@ -2002,7 +2008,7 @@ section.meetings-page .pagination ul li a {
   font-size       : 15px;
   transition      : all .3s;
   background-color: #adadad4d ;
-  padding-top: 7px;
+  /* padding-top: 7px; */
   height: 40px;
   
 }
@@ -2608,10 +2614,11 @@ hr.zizi {
 }
 
 .supi {
-  font-size  : 12px;
+  font-size: 12px;
   line-height: 16px;
-  height     : 40px;
-  overflow   : hidden;
+  height: 50px;
+  overflow: hidden;
+  margin: 0;
 }
 
 .contain {
@@ -2757,7 +2764,7 @@ a:hover {
   margin: 0 0px 0px 5px;
   height: 106px;
   overflow: hidden;
-  line-height: 19px;
+  line-height: 16px;
 }
 
 .redbold {
@@ -3209,16 +3216,17 @@ section.heading-page1 {
     font-size: 24px;
   }
   .meeting-single-item .down-content p{
-      color: #1f272b;
+    color: #1f272b;
     font-size: 14px;
     white-space: nowrap;
     color: #1f272b;
-    font-size: 2vw;
+    /* font-size: 2vw; */
     white-space: nowrap;
     line-height: 1.4vw;
-    line-height: 2.8vw;
-    margin-top: 4px;
+    line-height: 3vw;
+    margin-top: -3px;
     margin-top: 2;
+    font-size: 3vw;
   }
 }
 .templatemo-item-col:hover {
@@ -3232,3 +3240,21 @@ section.heading-page1 {
   }
 }
 
+.blogs::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.blogs {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.services .item h4::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.services .item h4 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

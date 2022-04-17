@@ -188,7 +188,8 @@ span.if {
 .sub__title__container h2 {
     letter-spacing: 2px;
     color: #000000;
-    margin: 0.4rem 0
+    margin: 0.4rem 0;
+    white-space: nowrap;
 }
 
 .sub__title__container p {
@@ -234,8 +235,8 @@ span.if {
     border-radius: 2rem;
     background: #ba0f0f;
     color: #ffffff;
-    padding-top: 16px;
-    padding-bottom: 6px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     background-color: transparent;
   background-image: linear-gradient(180deg, #861913 0%, #BA0F0F 100%);
 }
@@ -244,7 +245,7 @@ span.if {
     transform: scale(1.03);
     background: #9e1713;
     transform: scale(1.1);
-    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 10%);
+    // box-shadow: 0 10px 40px 0 rgb(0 0 0 / 10%);
     z-index: 3;
     border-color: #007bff !important;
     transition: transform 250ms;
@@ -852,8 +853,10 @@ input[type=file]::file-selector-button {
 
 
   .chk {
-    margin-top: 10px;
+    margin-top: 2px;
     font-size: 14px;
+    display: flex;
+    align-items: center;
   }
   .formaini {
     display: flex;
@@ -885,7 +888,9 @@ font-weight: 600;
     margin-top: 30px;
 }
 .jio{
-    background-image: url(/assets/images/qq\ 207.png)!important;
+
+  background-image: url(/assets/images/qq\ 207.png);
+  
 }
 option{
     font-size: 16px;
